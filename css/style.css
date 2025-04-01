@@ -463,9 +463,38 @@
     left: 0;
     filter: grayscale(10%);
 }
+ .hero-bg-half-4 {
+    background-image: url(../img/tell.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;  /* Ensure full width coverage */
+    height: 100vh; /* Full viewport height */
+    top: 0;
+    left: 0;
+    filter: grayscale(10%);
+}
 
 
 
+
+@media (max-width: 768px) {
+    .hero-section {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+}
+
+.header-carousel {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    position: relative;
+    top: 0;
+}
 
 
 
